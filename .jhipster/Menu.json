@@ -1,0 +1,35 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "resto",
+            "otherEntityName": "resto",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "starter",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "mainCourse",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sweeties",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "beveries",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170615125317",
+    "javadoc": "not an ignored comment",
+    "entityTableName": "menu",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}

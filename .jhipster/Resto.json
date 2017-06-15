@@ -1,0 +1,30 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "restomenus",
+            "otherEntityName": "menu",
+            "otherEntityRelationshipName": "resto"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "restoName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "restoAddress",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "restoPhoneNumber",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170615125315",
+    "entityTableName": "resto",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}

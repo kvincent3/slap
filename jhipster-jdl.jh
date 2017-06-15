@@ -1,0 +1,26 @@
+entity Resto {
+	restoName String,
+    restoAddress String,
+    restoPhoneNumber String
+    }
+
+entity Client {
+	clientFirtName String,
+    clientSurName String
+    
+}
+
+// an ignored comment
+/** not an ignored comment */
+entity Menu {
+	starter String,
+	mainCourse String,
+	sweeties String,
+    beveries String
+}
+
+relationship OneToMany {
+	Resto{restomenus} to Menu 
+}
+
+
